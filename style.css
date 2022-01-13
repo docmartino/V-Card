@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+/* BLOC DU SITE */
+
+.bloc-gauche {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    z-index: 2; 
+    
+}
+
+.bloc-float {
+    height:60%;
+    width: 60%;
+    position: absolute;
+    z-index: 3;
+    top: 5%;
+    left: 20%;   
+}
+
+.bloc-droit {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+    left: 30%;   
+}
+
+.bloc-line {
+    top: 39%;
+    left: 38%;
+    position:fixed;
+    z-index: 4;
+    border: solid 3px;
+    border-color: rgb(189, 122, 46);
+    height: 1px;
+    width: 100px;
+    background-color: rgb(189, 122, 46);
+}
+
+/* TEXT  */
+
+.text {
+    top: 70%;
+    left: 30px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.div-txt {
+    position: relative;
+    top: 260px;
+    left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/* BUTTON */
+
+.buttonr{
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px 40px;
+    background-color: rgb(224, 222, 222);
+    border: 3px solid rgb(189, 122, 46);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9; 
+    margin-left: 20px;
+     
+}
+
+.buttonp{
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 14px 40px;
+    background-color: rgb(189, 122, 46);
+    border: 3px solid rgb(189, 122, 46);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;   
+}
+
+.buttonr:hover {
+    background-color: rgb(189, 122, 46);
+    opacity: 1;
+    transition: 0.3s;
+}
+.buttonp:hover {
+    background-color: rgb(189, 122, 46);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/* LIGNE */
+
+.line {   
+    border-bottom: 4px solid rgb(189, 122, 46);
+    position: relative;
+    left: 507px;
+    bottom: 450px;
+    width: 300px;
+}
+
+/* BURGER */
+
+.burger {
+    position: absolute;
+    left: 107%;
+    font-size: 35px;
+}
+
+/* IMAGES */
+
+.img-logo {
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.img {
+    width:35em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+    
+}
+/* COULER FOND  */
+
+.bg-red{
+    background-color: rgb(199, 46, 46);
+}
+
+.bg-white{
+    background: rgb(158,158,158);
+    background: linear-gradient(90deg, rgb(175, 175, 175) 0%, rgba(254,254,254,1) 100%);
+}
+
+.bg-orange{
+    background: rgb(158,158,158);
+    background: linear-gradient(90deg, rgb(189, 122, 46) 0%, rgb(156, 101, 38) 100%);
+    /* background-color: rgb(189, 122, 46); */
+}
+
+.bg-yellow{
+    background-color: rgb(224, 236, 108);
+}
+
+.orange {
+    background-color: rgb(189, 122, 46);
+}
